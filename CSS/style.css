@@ -1,0 +1,56 @@
+/*First Section Style*/
+.container{
+    width: 1190px;
+    margin: 80px auto;
+}
+.Restaurant-H{
+ font-weight: bold;
+ font-size: 14px;
+ color: #5863F8;
+ transition: all 0.9s;
+}
+.Restaurant-H:hover{
+    color: chocolate;
+}
+.h5-box{
+    width: 498px;
+}
+.Menu-H{
+    font-weight: bolder;
+    font-size: 42px;
+    animation: Color 10s infinite alternate;
+}
+/*Color Animation*/
+@keyframes Color {
+  
+   10%{
+    color: red;
+   }
+   20%{
+       color: orange;
+   }
+   30%{
+       color: yellow;
+   }
+   40%{
+       color: green;
+   }
+   50%{
+       color: blue;
+   }
+   60%{
+       color: indigo;
+   }
+   70%{
+       color: violet;
+   }
+   80%{
+       color: black;
+   }
+   90%{
+       color: rgb(18, 18, 134);
+   }
+   100%{
+       color: rgb(114, 126, 7);
+   }
+}
