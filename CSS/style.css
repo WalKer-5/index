@@ -68,7 +68,7 @@
 }
 /*Boxs*/
 .main-container{
-    margin-top: 65px;
+   margin-top: 60px;
 }
 .box-box{
     margin-left: 15px;
@@ -98,4 +98,17 @@
 /*2 Section Style*/
 .top-cont{
     margin-top: 20px;
+}
+.box1{
+    width: 353px;
+    text-align: center;
+    height: 150px;
+    background-color: #F8F8F8;
+}
+.p-size{
+    width: 260px;
+    margin: 0 auto;
+}
+.floats{
+    margin-left: 15px;
 }
